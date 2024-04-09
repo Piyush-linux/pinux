@@ -1,6 +1,14 @@
 <script setup>
 import { ref } from 'vue'
 
+
+/*-commands
+- ls, pwd, cd .. , 
+- mkdir, rmdir, rm -rf, touch, 
+
+
+*/
+
 let data = [{
 	q:"List dir in current path",
 	ans:"ls",
@@ -27,12 +35,23 @@ let check = (index) => {
 
 </script>
 
+
 ---
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+
+---
+
 
 # Misson
 
+
 <div v-for="(itm,index) in data">
-<div style="margin-top: 3rem;">
+
+
+<div style="margin-top: 3rem;margin-bottom: 3rem;">
 	
 ::: tip Q{{ index + 1 }} : {{ itm.q  }}
 hint !
@@ -42,11 +61,15 @@ hint !
 
 <button class="btn" @click="check(index)">submit</button>
 
+<div class="detail">
+
 ::: details Click to view answer
 
-> {{ itm.ans }}
+> __{{ itm.ans }}__
 
 :::
+
+</div>
 
 <div v-if="itm.passed == 'fail'">
 	Better Luck Next Time 😢
@@ -56,4 +79,7 @@ hint !
 </div>
 
 </div>
+
+<hr class="line" />
+
 </div>

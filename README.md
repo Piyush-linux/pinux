@@ -53,4 +53,8 @@ head:
 ```
 
 ### Help
-- https://linuxjourney.com/
+- man : https://piyush-linux.github.io/piyotes/os/linux/
+- roadmap: https://linuxjourney.com/
+- Assets : https://www.flaticon.com/free-icon/cave_5167244?term=rock&page=2&position=57&origin=search&related_id=5167244
+- dev: https://vitepress.dev/
+- dev style : https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css

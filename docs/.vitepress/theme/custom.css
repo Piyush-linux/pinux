@@ -1,0 +1,39 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #1abc9c;
+  --vp-c-brand-2: #16a085;
+
+  --vp-button-brand-bg: #16a085;
+  --vp-custom-block-tip-bg: #10ac84;
+}
+
+.f1,.detail{
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.line{
+  background-color:ghostwhite;
+  height: 2px;
+}
+
+.btn {
+  background-color: #323232;
+  padding: 1em;
+  font-weight: bolder;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+.inp::placeholder {
+  color: snowshite;
+  opacity: 1; 
+}
+.inp{
+  font-family: "Ubuntu Mono", monospace;
+  border: 2px dashed #1abc9c;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}

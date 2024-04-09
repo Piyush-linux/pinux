@@ -25,7 +25,7 @@ export default {
     [
       "link",
       {
-        href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap",
         rel: "stylesheet",
       },
     ],
@@ -41,13 +41,13 @@ export default {
   themeConfig: {
     siteTitle: 'Pinux',
     logo: '/favicon/small.png',
-    outline:1,
+    outline:[1,2],
     nav: [
       { text: 'Guide', link: '/linux' },
       {
         text: 'Dungeon',
         items: [
-          { text: 'Misson A', link: '/dungeon/mission-a/level-1' },
+          { text: 'Earth', link: '/rock/' },
           { text: 'Misson B', link: '/item-2' },
           { text: 'Misson C', link: '/item-3' }
         ]
@@ -86,6 +86,9 @@ export default {
         ariaLabel: 'cool link'
       }
     ],
-    algolia :true
+    // algolia :true
+     search: {
+      provider: 'local'
+    }
   },
 };
