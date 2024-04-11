@@ -1,6 +1,6 @@
 ---
 layout: home
-
+ 
 hero:
   name: Pinux
   text: Become a Linux Ninja 
@@ -17,20 +17,24 @@ hero:
       link: https://github.com/vuejs/vitepress
 
 features:
-  - icon: 🔥
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🌊
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🌀
-      # src: /cool-feature-icon.svg
-    title: Another cool feature
-    details: Lorem ipsum...
   - icon: 🪨
       # dark: /dark-feature-icon.svg
       # light: /light-feature-icon.svg
-    title: Another cool feature
+    title: Rock
     details: Lorem ipsum...
+    link: /rock/
+  - icon: 🔥
+    title: Fire
+    details: Lorem ipsum...
+    link: /fire/
+  - icon: 🌊
+    title: Water
+    details: Lorem ipsum...
+    link: /water/
+  - icon: 🌪️
+      # src: /cool-feature-icon.svg
+    title: Air
+    details: Lorem ipsum...
+    link: /air/
 ---
 Welcome !
