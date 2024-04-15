@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Fire
-  text: Ignite Your Expertise 
+  text: Ignite Your Expertise
   tagline: This is where you surpass your limit !
   image:
     width: 200rem
@@ -19,24 +19,24 @@ hero:
 
 features:
   - icon: 🤘
-    title: The Begining
-    details: Lorem ipsum...
+    title: Data Sentinel
+    details: Mastering Advanced File Security
     link: /rock/a-mission/level_1
   - icon: 👋
-    title: I lost my way
-    details: Lorem ipsum...
+    title: Process Whisperer
+    details: Unraveling Advanced System Dynamics
   - icon: 👊
-    title: taijutsu
-    details: Lorem ipsum...
+    title: Core Sentinel
+    details: Decrypting Advanced Boot Sequences
   - icon: 👌
-    title: ninjutsu
-    details: Lorem ipsum...
+    title: Hardware Ninja
+    details: Mastering Advanced Device Management
 ---
 
 <br/>
 <br/>
 <div class="text-justify">
 
-The __" F I R E "__ module blazes forth with the intensity of a raging inferno, challenging learners to brave the complexities of the Linux command-line. Like skilled alchemists harnessing the power of fire, participants delve into advanced commands, mastering the art of process management, system monitoring, file manipulation, and the arcane craft of shell scripting. Here, they forge their skills in the crucible of command-line mastery, emerging as adept wielders of Linux's fiery potential.
+The **" F I R E "** module blazes forth with the intensity of a raging inferno, challenging learners to brave the complexities of the Linux command-line. Like skilled alchemists harnessing the power of fire, participants delve into advanced commands, mastering the art of process management, system monitoring, file manipulation, and the arcane craft of shell scripting. Here, they forge their skills in the crucible of command-line mastery, emerging as adept wielders of Linux's fiery potential.
 
 </div>

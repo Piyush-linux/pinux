@@ -4,16 +4,33 @@
   --vp-c-brand-2: #16a085;
 
   --vp-button-brand-bg: #16a085;
+
+  /* NOTE Blocks  */
   --vp-custom-block-tip-bg: #10ac84;
+  --vp-custom-block-danger-bg: #eb4d4b;
+  --vp-custom-block-warning-bg: #f39c12;
+
+  /* --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);*/
 }
 
-.f1,.detail{
+html {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/**/
+.f1,
+.detail {
   font-family: "Ubuntu Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
-.line{
-  background-color:ghostwhite;
+
+.line {
+  background-color: ghostwhite;
   height: 2px;
 }
 
@@ -21,15 +38,19 @@
   background-color: #323232;
   padding: 1em;
   font-weight: bolder;
-  letter-spacing: .3em;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 }
+
 .inp::placeholder {
   color: snowshite;
-  opacity: 1; 
+  opacity: 1;
 }
-.inp{
+
+.inp {
+  letter-spacing: 2px;
   font-family: "Ubuntu Mono", monospace;
+  width: 100%;
   border: 2px dashed #1abc9c;
   font-size: 1rem;
   padding: 1rem;
@@ -38,9 +59,36 @@
   font-weight: bolder;
 }
 
+/* CLI  */
+.cli {
+}
+
+.cli-btn {
+  height: 100%;
+  padding: 1rem;
+  background-color: #1abc9c;
+  font-weight: bolder;
+  font-family: hermit;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.cli-inp {
+  letter-spacing: 2px;
+  font-family: "Ubuntu Mono", monospace;
+  width: 100%;
+  border: 2px dashed #1abc9c;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
 
 /* utils  */
 
-.text-justify{
-   text-align: justify;
+.text-justify {
+  text-align: justify;
 }
