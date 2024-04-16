@@ -1,6 +1,6 @@
 ---
 layout: home
-
+ 
 hero:
   name: Pinux
   text: Become a Linux Ninja
@@ -22,15 +22,15 @@ features:
       # dark: /dark-feature-icon.svg
       # light: /light-feature-icon.svg
     title: Rock
-    details: Lorem ipsum...
+    details: Forge a Solid Foundation 
     link: /rock/
   - icon: 🔥
     title: Fire
-    details: Lorem ipsum...
+    details: Ignite Your Expertise
     link: /fire/
   - icon: 🌊
     title: Water
-    details: Lorem ipsum...
+    details: The Big Ocean began
     link: /water/
   - icon:
       🌪️
@@ -61,3 +61,6 @@ This is an rabit hole once you completed this level, you have entered the matrix
 > There is no going back -anonymous
 
 :::
+
+
+<div class='e'></div>

@@ -20,10 +20,11 @@ features:
   - icon: 🤘
     title: Initiation
     details: Unveiling the Linux Essence
-    link: /rock/a-mission/level_1
+    link: /rock/initiation
   - icon: 👋
     title: Pathfinder
-    details: Mastering the Art of File Navigation
+    details: Mastering the Art of Navigation
+    link: /rock/navigation
   - icon: 👊
     title: Commando Pro
     details: Unleashing Terminal Mastery

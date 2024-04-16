@@ -29,11 +29,13 @@ export default {
         rel: "stylesheet",
       },
     ],
+    // 
     [
       "link",
       {
         rel: "icon",
-        href: "./favicon.ico",
+        type:"image/x-icon",
+        href: "/pinux/favicon.ico",
       },
     ],
   ],
@@ -43,15 +45,16 @@ export default {
     logo: '/favicon/small.png',
     outline:[1,2],
     nav: [
-      { text: 'Guide', link: '/linux' },
-      {
-        text: 'Dungeon',
-        items: [
-          { text: 'Earth', link: '/rock/' },
-          { text: 'Misson B', link: '/item-2' },
-          { text: 'Misson C', link: '/item-3' }
-        ]
-      }
+      { text: 'Home', link: '/linux' },
+          { text: 'About', link: '/rock/' },
+          { text: 'Contribute', link: '/rock/' },
+      // {
+      //   text: 'Docs',
+      //   items: [
+      //     { text: 'About us', link: '/rock/' },
+      //     { text: 'Contribution', link: '/item-2' },
+      //   ]
+      // }
     ],
     sidebar: {
       '/dungeon/mission-a/': [

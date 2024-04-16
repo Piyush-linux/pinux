@@ -1,11 +1,12 @@
 <script setup>
-
+	import { data } from '../data/example.data.js'
 	import {ref} from "vue";
 	
-	let data = ref("");
+	let inp = ref("");
 	
 	function search (){
-		console.log(data.value);
+		console.log(inp.value);
+		console.log(data.message);
 	}
 
 </script>
@@ -25,8 +26,10 @@ A Linux distribution (often abbreviated as "distro") is a complete operating sys
   The CLI is often accessed through a terminal emulator, which provides a text-based interface for entering commands and viewing their output.
   The Linux CLI is known for its power and flexibility, allowing users to perform complex tasks quickly and efficiently.
 
+
+
 <div class="cli" style="display: flex;align-items: center;">
-	<input class="cli-inp" placeholder="$ whoami" v-model="data" />
+	<input class="cli-inp" placeholder="$ whoami" v-model="inp" />
 	<button class="cli-btn" @click="search">submit</button>
 </div>
 

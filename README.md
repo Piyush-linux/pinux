@@ -2,6 +2,9 @@
 
 > This is my ninja way !
 
+## Roadmap
+
+- [ ] feat: vue component (inp/submit) child to parent !
 - [ ] feat: enter key feature
 - [ ] feat: notification
 - [ ] style: input font as hermit/fira/mono/ubuntu
@@ -27,13 +30,14 @@ yarn docs:dev
 - Dungeon(4) : Rock,Fire,Water,Air
   - Mission(4): Each modules consist of reuired knowledge
     - Levels(3): Each get harder as we move forward
+      - bossFight : villan vs ninja game play of quizz
 
-### Rock: CLI
 
-1. linux introduction
-2. navigation command
-3. Terminal on steroid
-4. Utilities / tools
+# naming
+
+```
+Commando Shadowblade, the Master of Linux Techniques
+```
 
 ```md
 ---
@@ -49,7 +53,13 @@ head:
 ---
 ```
 
-### Styling guide
+## Docs UI
+
+- flaticons
+- GIF
+- docs
+- tags
+- input & mess
 
 ### Help
 
@@ -58,3 +68,4 @@ head:
 - Assets : https://www.flaticon.com/free-icon/cave_5167244?term=rock&page=2&position=57&origin=search&related_id=5167244
 - dev: https://vitepress.dev/
 - dev style : https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+- data : https://vitepress.dev/guide/data-loading
