@@ -61,6 +61,7 @@ html {
 
 /* CLI  */
 .cli {
+
 }
 
 .cli-btn {
@@ -74,6 +75,10 @@ html {
   border-radius: 5px;
   letter-spacing: 2px;
 }
+.cli-btn:hover{
+  box-shadow: 3px 3px 50px #1abc9c;
+  transition: .3s;
+}
 
 .cli-inp {
   letter-spacing: 2px;
@@ -85,6 +90,13 @@ html {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: bolder;
+}
+
+/* Check  */
+
+.check{
+  font-weight:bold;
+  font-family:hermit;
 }
 
 /* utils  */
