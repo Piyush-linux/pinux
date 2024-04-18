@@ -14,9 +14,9 @@ You can also share this in you Social media & saying you have learned something
 - [ ] feat: input trip form both the end !
 - [ ] idea: Sitemap
 
-## Tech
+## 🔗 [Tech](https://vitepress.dev/)
 
-- [Vitepress](https://vitepress.dev/)
+<img src="https://skillicons.dev/icons?i=vite,vue,md" /> <br>
 
 ## Setup
 
