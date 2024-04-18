@@ -1,6 +1,6 @@
 ---
 layout: home
- 
+
 hero:
   name: Pinux
   text: Become a Linux Ninja
@@ -17,12 +17,9 @@ hero:
       link: https://github.com/vuejs/vitepress
 
 features:
-  - icon:
-      🪨
-      # dark: /dark-feature-icon.svg
-      # light: /light-feature-icon.svg
+  - icon: 🪨
     title: Rock
-    details: Forge a Solid Foundation 
+    details: Forge a Solid Foundation
     link: /rock/
   - icon: 🔥
     title: Fire
@@ -61,6 +58,5 @@ This is an rabit hole once you completed this level, you have entered the matrix
 > There is no going back -anonymous
 
 :::
-
 
 <div class='e'></div>

@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Rock
-  text: Forge a Solid Foundation 
+  text: Forge a Solid Foundation
   tagline: learners embark on a journey akin to traversing rugged terrain.
   image:
     src: /rock.png
@@ -17,22 +17,25 @@ hero:
   #     link: https://github.com/vuejs/vitepress
 
 features:
-  - icon: 🤘
+  - icon:
+      dark: /rock/rotation.png
     title: Initiation
     details: Unveiling the Linux Essence
     link: /rock/initiation
-  - icon: 👋
+  - icon:
+      dark: /rock/folder.png
     title: Pathfinder
     details: Mastering the Art of Navigation
     link: /rock/navigation
-  - icon: 👊
+  - icon:
+      dark: /rock/pc.png
     title: Commando Pro
     details: Unleashing Terminal Mastery
-  - icon: 👌
+  - icon:
+      dark: /rock/bag.png
     title: Toolsmith
     details: Crafting Efficiency with Linux Utilities
 ---
-
 
 <br/>
 <br/>

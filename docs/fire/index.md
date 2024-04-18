@@ -18,17 +18,21 @@ hero:
   #     link: https://github.com/vuejs/vitepress
 
 features:
-  - icon: 🤘
+  - icon:
+      dark: /fire/perm.png
     title: Data Sentinel
     details: Mastering Advanced File Security
     link: /rock/a-mission/level_1
-  - icon: 👋
+  - icon:
+      dark: /fire/proc.png
     title: Process Whisperer
     details: Unraveling Advanced System Dynamics
-  - icon: 👊
+  - icon:
+      dark: /fire/core.png
     title: Core Sentinel
     details: Decrypting Advanced Boot Sequences
-  - icon: 👌
+  - icon:
+      dark: /fire/hardware.png
     title: Hardware Ninja
     details: Mastering Advanced Device Management
 ---

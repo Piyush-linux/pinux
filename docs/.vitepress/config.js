@@ -29,25 +29,25 @@ export default {
         rel: "stylesheet",
       },
     ],
-    // 
+    //
     [
       "link",
       {
         rel: "icon",
-        type:"image/x-icon",
+        type: "image/x-icon",
         href: "/pinux/favicon.ico",
       },
     ],
   ],
 
   themeConfig: {
-    siteTitle: 'Pinux',
-    logo: '/favicon/small.png',
-    outline:[1,2],
+    siteTitle: "Pinux",
+    logo: "/favicon/small.png",
+    outline: [1, 2],
     nav: [
-      { text: 'Home', link: '/linux' },
-          { text: 'About', link: '/rock/' },
-          { text: 'Contribute', link: '/rock/' },
+      { text: "Home", link: "/linux" },
+      { text: "About", link: "/about" },
+      { text: "Contribute", link: "/contribute" },
       // {
       //   text: 'Docs',
       //   items: [
@@ -57,41 +57,41 @@ export default {
       // }
     ],
     sidebar: {
-      '/dungeon/mission-a/': [
+      "/dungeon/mission-a/": [
         {
-          text: 'Guide',
+          text: "Guide",
           items: [
-            { text: 'Index', link: '/guide/' },
-            { text: 'One', link: '/guide/one' },
-            { text: 'Two', link: '/guide/two' }
-          ]
-        }
+            { text: "Index", link: "/guide/" },
+            { text: "One", link: "/guide/one" },
+            { text: "Two", link: "/guide/two" },
+          ],
+        },
       ],
     },
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Piyush'
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-present Piyush",
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'twitter', link: '...' },
-      { icon: 'instagram', link: '...' },
-      { icon: 'linkedin', link: '...' },
-      { icon: 'discord', link: '...' },
-      { icon: 'mastodon', link: '...' },
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "twitter", link: "..." },
+      { icon: "instagram", link: "..." },
+      { icon: "linkedin", link: "..." },
+      { icon: "discord", link: "..." },
+      { icon: "mastodon", link: "..." },
       // Mastodon
       {
         icon: {
-          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>'
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>',
         },
-        link: '...',
+        link: "...",
         // You can include a custom label for accessibility too (optional but recommended):
-        ariaLabel: 'cool link'
-      }
+        ariaLabel: "cool link",
+      },
     ],
     // algolia :true
-     search: {
-      provider: 'local'
-    }
+    search: {
+      provider: "local",
+    },
   },
 };
