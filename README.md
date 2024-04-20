@@ -6,13 +6,9 @@ You can also share this in you Social media & saying you have learned something
 
 ## Roadmap
 
-- [x] feat: vue component (inp/submit) child to parent !
+- [ ] docs: bash-scripting syllabus
 - [ ] feat: enter key feature
-- [ ] feat: notification
-- [ ] style: input font as hermit/fira/mono/ubuntu
-- [ ] feat: Nav & Footer setup
 - [ ] feat: input trip form both the end !
-- [ ] idea: Sitemap
 
 ## 🔗 [Tech](https://vitepress.dev/)
 
@@ -33,6 +29,9 @@ yarn docs:dev
   - Mission(4): Each modules consist of reuired knowledge
     - Levels(3): Each get harder as we move forward
       - bossFight : villan vs ninja game play of quizz
+
+
+
 
 
 # naming
