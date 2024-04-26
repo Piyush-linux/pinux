@@ -41,8 +41,9 @@ user> dir2
 ```
 
 - Change directory
+	- relative vs absolute path
 ```sh [Change dir]
-# change path to dir2 (relative)
+# change path to dir2 (relative path)
 user> cd ./dir2
 user/dir2> 
 
@@ -50,9 +51,13 @@ user/dir2>
 user/dir2> cd ~ 
 user>
 
-# change path to dir2 (absolute)
+# change path to dir2 (absolute path)
 user> cd /user/dir2
 user/dir2> 
+
+# change path to root
+user> cd /
+/>
 ```
 
 - Display my current path
@@ -61,46 +66,66 @@ user/dir2> pwd
 /home/user/dir2 # my current path
 ```
 
+### Working with File
+
 - Create file
 
 ```sh
 touch file1.txt 
+touch file1.txt file3.txt file2.txt
 ```
+
 - Display file
 ```sh
 cat file1.txt 
 ```
 
-## Navigation
-
-
+- List file
 
 ```sh
-# navigation
-touch
-rm
-cd
-pwd
-mv
-cp
-ls
-file
-cat 
+# list files
+user> ls
+user> dir1 dir2 file.txt 
 
+# list meta data
+user> ls -lh
 
-# help
-man
-<cmd> --help 
-tldr
-cheat.sh
+# list hidden files
+user> ls -a
+```
 
-# about
-whoami
-uname
-hostname
-neofetch
+- Remove file
 
 ```
+rm file.txt
+```
+
+- Copy File
+
+```sh
+cp file1.txt file2.txt
+# copy file1 to Desktop (absolute path)
+cp file1.txt ~/user/Desktop/
+```
+
+- Rename File
+
+```sh
+mv file0.txt file1.txt
+```
+
+- Move File
+```sh
+# move file1 complete;y to Desktop
+mv file1.txt ~/user/Desktop
+```
+
+- Detect File Type
+
+```sh
+file file1.txt
+```
+
 
 ---
 
