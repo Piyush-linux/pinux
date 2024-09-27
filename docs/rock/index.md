@@ -21,7 +21,7 @@ features:
       dark: /rock/rotation.png
     title: Initiation
     details: Unveiling the Linux Essence
-    link: /rock/initiation
+    link: /rock/initiation/index
   - icon:
       dark: /rock/folder.png
     title: Pathfinder

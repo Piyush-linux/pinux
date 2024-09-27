@@ -1,3 +1,9 @@
+---
+next: 
+    text: 'Daily Drive Usage'
+    link: /rock/initiation/distro
+---
+
 # Introduction
 
 Linux is an open-source operating system kernel originally created by Linus Torvalds in 1991. It is the foundation of many different Linux distributions, which are complete operating systems that include the Linux kernel along with a collection of software applications and tools. Linux is known for its stability, security, and flexibility, and it is widely used in servers, supercomputers, and embedded systems. It is also popular among developers and enthusiasts for its customization options and community-driven development model.

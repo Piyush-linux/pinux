@@ -1,11 +1,16 @@
 # Pinux
 
 this project is meant to create interest in linux plyaing games and CTF for linux
-You can also share this in you Social media & saying you have learned something
+You can also share this in you Social media & saying you have learned something.
+
+## Techstack
+vitepress + markdown 
+
 > This is my ninja way !
 
 ## Roadmap
 
+- [ ] Next Button
 - [ ] docs: bash-scripting syllabus
 - [ ] feat: enter key feature
 - [ ] feat: input trip form both the end !
@@ -29,6 +34,60 @@ yarn docs:dev
   - Mission(4): Each modules consist of reuired knowledge
     - Levels(3): Each get harder as we move forward
       - bossFight : villan vs ninja game play of quizz
+
+### Rock
+1. Initiation
+  - linux Introduction: kernel, history
+  - Distribution (CLI + GUI)
+
+2. Daily Drive Usage
+  - virtualization
+  - Installation (boot medium)
+  - package manager / Software Store
+  - Daily Driver Application to use
+
+3. CLI Commando 
+  - CLI , console , terminal, shell
+  - source, alias : bash , fish , zsh 
+  - echo / username / $
+  - Linux cmd Navigation
+
+
+  
+
+### Fire
+
+1. File System
+  - Linux FS
+  - File Permission
+  - User Management
+2. Text Ninja 
+  - Text Processsing
+  - Redirect & Pipe
+3. Admin 
+  - process
+  - Disk 
+  - system 
+  - hardware
+4. Network
+  - ssh
+  - ping, addr, ip, 
+
+
+### Water ( Bash Scripting )
+Bash Scripting
+
+
+
+### Air
+Cloud
+  - docker
+  - nginx
+  - DigitalOcean
+  - AWS
+
+### Bonus
+Ricing 
 
 
 
