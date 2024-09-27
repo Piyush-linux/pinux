@@ -1,7 +1,3 @@
-<script setup>
-	import Play from "../components/Play.vue"
-</script>
-
 ## Linux File tree
 
 > Everything in linux is a file, even an directory / folder is a type of file which contain other files
@@ -135,7 +131,5 @@ Kuroku, the Path-Twister, is a cunning and elusive ninja villain who specializes
 
 :::
 
-
-<Play/>
 
 
