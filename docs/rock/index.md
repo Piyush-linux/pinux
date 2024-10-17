@@ -24,9 +24,9 @@ features:
     link: /rock/initiation/index
   - icon:
       dark: /rock/folder.png
-    title: Pathfinder
+    title: Daily Usage
     details: Mastering the Art of Navigation
-    link: /rock/navigation
+    link: /rock/daily
   - icon:
       dark: /rock/pc.png
     title: Commando Pro
